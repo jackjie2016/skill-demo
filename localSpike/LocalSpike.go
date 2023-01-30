@@ -1,8 +1,8 @@
 package localSpike
 
 import (
-	"demo/remoteSpike"
 	"github.com/gomodule/redigo/redis"
+	"skill-demo/remoteSpike"
 )
 
 type LocalSpike struct {

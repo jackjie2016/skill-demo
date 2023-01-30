@@ -1,4 +1,4 @@
-module skill
+module skill-demo
 
 go 1.19
 

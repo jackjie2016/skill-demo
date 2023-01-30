@@ -1,15 +1,17 @@
 package main
 
 import (
-	localSpike2 "demo/localSpike"
-	remoteSpike2 "demo/remoteSpike"
-	"demo/util"
 	"fmt"
-	"github.com/gomodule/redigo/redis"
 	"net/http"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/gomodule/redigo/redis"
+
+	localSpike2 "skill-demo/localSpike"
+	remoteSpike2 "skill-demo/remoteSpike"
+	"skill-demo/util"
 )
 
 var redisPool *redis.Pool

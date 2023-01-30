@@ -55,7 +55,7 @@ E:/go_work/system/go1.19.4/src/net/http/server.go:3102 +0x4db
 ``
 
 
-redigo pool 链接的处理完请求要shi释放掉，要不然会异常
+redigo pool 链接的处理完请求要释放掉，要不然会异常
 ``
 defer conn.Close()
 ``
